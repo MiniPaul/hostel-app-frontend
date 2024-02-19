@@ -1,3 +1,9 @@
+.logbg {
+  height: 100%;
+  margin: 0;
+  background-image:url("https://www.shutterstock.com/image-illustration/yellow-texture-wall-living-room-260nw-477567094.jpg");
+}
+
 .App {
   text-align: center;
 }
