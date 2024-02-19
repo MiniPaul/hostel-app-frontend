@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import HomeNavBar from './HomeNavBar'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Login = () => {
+
+  const navigate = useNavigate()
 
   const[input,setInput]=new useState(
     {
@@ -21,6 +23,11 @@ const Login = () => {
       (responds)=>{
         console.log(responds.data)
         if (responds.data.status == "success") {
+
+          sessionStorage.setItem("userid",responds.data.userData._id)
+
+          navigate("/addcomplaint")
+
           setInput(
             {
               "email":" ",
