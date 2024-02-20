@@ -7,6 +7,7 @@ import Contact from './Components/Contact';
 import Login from './Components/Login';
 import AdminLogin from './Components/AdminLogin';
 import AddComplaint from './Components/AddComplaint';
+import ViewmyComplaint from './Components/ViewmyComplaint';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/admin" element={<AdminLogin/>}/>
         <Route path="/addcomplaint" element={<AddComplaint/>}/>
+        <Route path="/mycomplaint" element={<ViewmyComplaint/>}/>
       </Routes>
       </BrowserRouter>
     </div>
