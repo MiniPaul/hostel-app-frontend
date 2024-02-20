@@ -15,10 +15,13 @@ const HostelerNavBar = () => {
           <a className="nav-link" href="#">View Profile</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Add Complaint</a>
+          <a className="nav-link" href="/addcomplaint">Add Complaint</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">View Complaints</a>
+          <a className="nav-link" href="/mycomplaint">View Complaints</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/login">log out</a>
         </li>
       </ul>
     </div>
