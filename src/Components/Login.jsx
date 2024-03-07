@@ -38,7 +38,7 @@ const Login = () => {
           if (responds.data.status=="Incorrect Password") {
             alert("Invalid password")
           } else {
-            alert("Invalid username")
+            alert("Invalid email")
           }
         }
       }
