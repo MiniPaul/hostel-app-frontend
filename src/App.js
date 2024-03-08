@@ -8,6 +8,8 @@ import Login from './Components/Login';
 import AdminLogin from './Components/AdminLogin';
 import AddComplaint from './Components/AddComplaint';
 import ViewmyComplaint from './Components/ViewmyComplaint';
+import AddHosteler from './Components/AddHosteler';
+import ViewAllComplaints from './Components/ViewAllComplaints';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/admin" element={<AdminLogin/>}/>
         <Route path="/addcomplaint" element={<AddComplaint/>}/>
         <Route path="/mycomplaint" element={<ViewmyComplaint/>}/>
+        <Route path='/addhosteler' element={<AddHosteler/>}/>
+        <Route path='/allcomplaint' element={<ViewAllComplaints/>}/>
       </Routes>
       </BrowserRouter>
     </div>

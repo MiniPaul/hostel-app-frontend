@@ -4,6 +4,10 @@
   background-image:url("https://www.shutterstock.com/image-illustration/yellow-texture-wall-living-room-260nw-477567094.jpg");
 }
 
+.abc{
+  width: 18rem;
+}
+
 .App {
   text-align: center;
 }
