@@ -12,6 +12,7 @@ import AddHosteler from './Components/AddHosteler';
 import ViewAllComplaints from './Components/ViewAllComplaints';
 import ViewMyProfile from './Components/ViewMyProfile';
 import ViewAllStudent from './Components/ViewAllStudent';
+import DeleteHosteler from './Components/DeleteHosteler';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/allcomplaint' element={<ViewAllComplaints/>}/>
         <Route path='/profile' element={<ViewMyProfile/>}/>
         <Route path='/viewall' element={<ViewAllStudent/>} />
+        <Route path='/delete' element={<DeleteHosteler/>} />
       </Routes>
       </BrowserRouter>
     </div>
