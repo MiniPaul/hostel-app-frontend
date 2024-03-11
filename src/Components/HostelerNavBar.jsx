@@ -12,7 +12,7 @@ const HostelerNavBar = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link" href="#">View Profile</a>
+          <a className="nav-link" href="/profile">View Profile</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/addcomplaint">Add Complaint</a>

@@ -10,6 +10,7 @@ import AddComplaint from './Components/AddComplaint';
 import ViewmyComplaint from './Components/ViewmyComplaint';
 import AddHosteler from './Components/AddHosteler';
 import ViewAllComplaints from './Components/ViewAllComplaints';
+import ViewMyProfile from './Components/ViewMyProfile';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/mycomplaint" element={<ViewmyComplaint/>}/>
         <Route path='/addhosteler' element={<AddHosteler/>}/>
         <Route path='/allcomplaint' element={<ViewAllComplaints/>}/>
+        <Route path='/profile' element={<ViewMyProfile/>}/>
       </Routes>
       </BrowserRouter>
     </div>

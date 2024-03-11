@@ -21,12 +21,12 @@ const Login = () => {
   const readValue=()=>{
     axios.post("http://localhost:3001/api/hostel/login",input).then(
       (responds)=>{
-        console.log(responds.data)
+        console.log(responds.data.userData)
         if (responds.data.status == "success") {
-
+          
           sessionStorage.setItem("userid",responds.data.userData._id)
 
-          navigate("/addcomplaint")
+          navigate("/profile")
 
           setInput(
             {
