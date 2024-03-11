@@ -11,6 +11,7 @@ import ViewmyComplaint from './Components/ViewmyComplaint';
 import AddHosteler from './Components/AddHosteler';
 import ViewAllComplaints from './Components/ViewAllComplaints';
 import ViewMyProfile from './Components/ViewMyProfile';
+import ViewAllStudent from './Components/ViewAllStudent';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/addhosteler' element={<AddHosteler/>}/>
         <Route path='/allcomplaint' element={<ViewAllComplaints/>}/>
         <Route path='/profile' element={<ViewMyProfile/>}/>
+        <Route path='/viewall' element={<ViewAllStudent/>} />
       </Routes>
       </BrowserRouter>
     </div>
