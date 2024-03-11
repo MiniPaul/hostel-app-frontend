@@ -18,6 +18,9 @@ const AdminNavBar = () => {
           <a class="nav-link" href="allcomplaint">View Complaints</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="viewall">View Hostelers</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/admin">LogOut</a>
         </li>
       </ul>
